@@ -10,9 +10,9 @@ public class BasicTestRunner extends TestRunner {
 
     /**
      * Creates a {@code BasicTestRunner} object for executing the test methods
-     * of the class specified.
+     * of the test class specified.
      *
-     * @param testClass the class whose test methods will be executed
+     * @param testClass the test class whose test methods will be executed
      */
     public BasicTestRunner(Class<?> testClass) {
         super(testClass);

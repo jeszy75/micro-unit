@@ -10,9 +10,9 @@ public class ExpectedExceptionHandlingTestRunner extends TestRunner {
 
     /**
      * Creates a {@code ExpectedExceptionHandlingTestRunner} object for
-     * executing the test methods of the class specified.
+     * executing the test methods of the test class specified.
      *
-     * @param testClass the class whose test methods will be executed
+     * @param testClass the test class whose test methods will be executed
      */
     public ExpectedExceptionHandlingTestRunner(Class<?> testClass) {
         super(testClass);

@@ -14,9 +14,9 @@ public abstract class TestRunner {
 
     /**
      * Creates a {@code TestRunner} object for executing the test methods of
-     * the class specified.
+     * the test class specified.
      *
-     * @param testClass the class whose test methods will be executed
+     * @param testClass the test class whose test methods will be executed
      */
     protected TestRunner(Class<?> testClass) {
         this.testClass = testClass;
@@ -36,7 +36,7 @@ public abstract class TestRunner {
     }
 
     /**
-     * Runs the test methods of the class.
+     * Runs the test methods of the test class.
      */
     public void runTestMethods() {
         try {

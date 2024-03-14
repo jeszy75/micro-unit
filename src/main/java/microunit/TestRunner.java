@@ -10,6 +10,9 @@ import java.util.List;
  */
 public abstract class TestRunner {
 
+    /**
+     * Represents a test class whose test methods will be executed.
+     */
     protected Class<?> testClass;
 
     /**
